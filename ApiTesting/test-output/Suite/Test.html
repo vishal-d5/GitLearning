@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jan 21 14:16:41 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21487 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='restassuredtestcases.GetRequestSingleUserNotFound.testNotfound()'><b>testNotfound</b><br>Test class: restassuredtestcases.GetRequestSingleUserNotFound</td>
+<td></td>
+<td>1</td>
+<td>restassuredtestcases.GetRequestSingleUserNotFound@3e84448c</td></tr>
+<tr>
+<td title='restassuredtestcases.PutRequest.testPutCreateUser()'><b>testPutCreateUser</b><br>Test class: restassuredtestcases.PutRequest</td>
+<td></td>
+<td>4</td>
+<td>restassuredtestcases.PutRequest@33990a0c</td></tr>
+<tr>
+<td title='restassuredtestcases.PostRequest.testPostCreateUser()'><b>testPostCreateUser</b><br>Test class: restassuredtestcases.PostRequest</td>
+<td></td>
+<td>1</td>
+<td>restassuredtestcases.PostRequest@7e5afaa6</td></tr>
+<tr>
+<td title='restassuredtestcases.PostResuestRegisterSuccessful.testRegisterdsuccefull()'><b>testRegisterdsuccefull</b><br>Test class: restassuredtestcases.PostResuestRegisterSuccessful</td>
+<td></td>
+<td>1</td>
+<td>restassuredtestcases.PostResuestRegisterSuccessful@429bffaa</td></tr>
+<tr>
+<td title='restassuredtestcases.GetRequestCucumberStyle.testvalidateGetUserListData()'><b>testvalidateGetUserListData</b><br>Test class: restassuredtestcases.GetRequestCucumberStyle</td>
+<td></td>
+<td>2</td>
+<td>restassuredtestcases.GetRequestCucumberStyle@32b260fa</td></tr>
+<tr>
+<td title='restassuredtestcases.PatchRequest.testPatchCreateUser()'><b>testPatchCreateUser</b><br>Test class: restassuredtestcases.PatchRequest</td>
+<td></td>
+<td>0</td>
+<td>restassuredtestcases.PatchRequest@1b1426f4</td></tr>
+<tr>
+<td title='restassuredtestcases.DeleteRequest.testDeleteCreatedUser()'><b>testDeleteCreatedUser</b><br>Test class: restassuredtestcases.DeleteRequest</td>
+<td></td>
+<td>1</td>
+<td>restassuredtestcases.DeleteRequest@581ac8a8</td></tr>
+<tr>
+<td title='restassuredtestcases.GetRequest.testSingleUser()'><b>testSingleUser</b><br>Test class: restassuredtestcases.GetRequest</td>
+<td></td>
+<td>1</td>
+<td>restassuredtestcases.GetRequest@4a7f959b</td></tr>
+<tr>
+<td title='restassuredtestcases.GetRequestSingleResourceNotFound.UserNotFound()'><b>UserNotFound</b><br>Test class: restassuredtestcases.GetRequestSingleResourceNotFound</td>
+<td></td>
+<td>0</td>
+<td>restassuredtestcases.GetRequestSingleResourceNotFound@5403f35f</td></tr>
+<tr>
+<td title='restassuredtestcases.GetRequestListResorce.testList()'><b>testList</b><br>Test class: restassuredtestcases.GetRequestListResorce</td>
+<td></td>
+<td>1</td>
+<td>restassuredtestcases.GetRequestListResorce@10d307f1</td></tr>
+<tr>
+<td title='restassuredtestcases.PostRequestLoginUnsuccesfull.testLoginUnsuccefull()'><b>testLoginUnsuccefull</b><br>Test class: restassuredtestcases.PostRequestLoginUnsuccesfull</td>
+<td></td>
+<td>1</td>
+<td>restassuredtestcases.PostRequestLoginUnsuccesfull@63a12c68</td></tr>
+<tr>
+<td title='restassuredtestcases.GetRequest.testGestUserList()'><b>testGestUserList</b><br>Test class: restassuredtestcases.GetRequest</td>
+<td></td>
+<td>0</td>
+<td>restassuredtestcases.GetRequest@4a7f959b</td></tr>
+<tr>
+<td title='restassuredtestcases.PostRequestRegistrerdUnsuccessfull.testRegisterdUnsuccefull()'><b>testRegisterdUnsuccefull</b><br>Test class: restassuredtestcases.PostRequestRegistrerdUnsuccessfull</td>
+<td></td>
+<td>1</td>
+<td>restassuredtestcases.PostRequestRegistrerdUnsuccessfull@4d5b6aac</td></tr>
+<tr>
+<td title='restassuredtestcases.PostRequestLoginSuccessfull.testLoginsuccefull()'><b>testLoginsuccefull</b><br>Test class: restassuredtestcases.PostRequestLoginSuccessfull</td>
+<td></td>
+<td>2</td>
+<td>restassuredtestcases.PostRequestLoginSuccessfull@483f6d77</td></tr>
+<tr>
+<td title='restassuredtestcases.GetRequestSingleResourceFound.testList()'><b>testList</b><br>Test class: restassuredtestcases.GetRequestSingleResourceFound</td>
+<td></td>
+<td>1</td>
+<td>restassuredtestcases.GetRequestSingleResourceFound@28f3b248</td></tr>
+</table><p>
+</body>
+</html>
