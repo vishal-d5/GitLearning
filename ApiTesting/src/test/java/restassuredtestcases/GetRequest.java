@@ -11,7 +11,7 @@ public class GetRequest {
 	
 	@Test
 	 void testGestUserList() {
-		
+		//sending  get request to server
 		 Response rsp=RestAssured.get("https://reqres.in/api/users?page=2");
 		 
 		 
